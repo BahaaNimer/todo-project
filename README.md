@@ -12,9 +12,11 @@ a simple to-do project with two pages
 ## Questions & Answers of the task
 
 What observations or questions do you have about what you’ve learned so far?
+
 Nothing so far.  
 
 How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 
 about 4-5 hours.
+
 about 7-8 hours because the styling take so much time.
