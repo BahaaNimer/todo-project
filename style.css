@@ -1,0 +1,81 @@
+img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+h1 {
+  display: relative;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+  text-align: left;
+  color: rgb(94, 85, 85);
+  border-bottom: 1px solid #eaeaea;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #fafafa;
+  border-bottom: 1px solid #eaeaea;
+}
+nav a {
+  display: relative;
+  color: #999;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.2s;
+  text-align: right;
+}
+nav a:hover {
+  color: #333;
+}
+nav a.active {
+  color: #333;
+}
+footer {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  color: #999;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #333;
+}
+header .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+main {
+  padding: 1rem;
+}
+main .container {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-align: center;
+}
+main input:focus {
+  outline: none;
+  border-color: #999;
+}
+#btn-cancel:hover {
+  background-color: gray;
+}
+main button:hover {
+  background-color: gray;
+}
+#btn {
+  text-align: center;
+}
