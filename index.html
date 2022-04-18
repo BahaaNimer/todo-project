@@ -18,6 +18,7 @@
   "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
       </script>
       <link rel="shortcut icon" type="image/png" href="./logo/logoipsum-logo-5.svg"/>
+      <script src="https://kit.fontawesome.com/36b35ace47.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- Navigation for the Home page -->
@@ -43,26 +44,38 @@
   </div>
  </header>
   <!-- checkbok for the app page -->
-  <main>
+  <section class="checkbox">
     <div class="container">
         <input type="checkbox" value="checkedValue" unchecked>
-        Task 1
-    </div>
-    <div class="container">
-        <input type="checkbox" value="checkedValue" unchecked>
-        Task 2
+        <p> Task 1 <span><i class="fa-solid fa-trash"></i></span></p>
     </div>
     <div class="container">
         <input type="checkbox" value="checkedValue" unchecked>
-        Task 3
+        <p> Task 2 <span><i class="fa-solid fa-trash"></i></span></p>
     </div>
-<!--Here the button will-->
-      <div id="btn">
-        <button type="submit" class="btn btn-secondary" id="btn-cancel">Cancel</button>
-        <button type="submit" class="btn btn-primary" id="btn-submit">Add Task</button>
-      </div>
+    <div class="container">
+        <input type="checkbox" value="checkedValue" unchecked>
+        <p> Task 3 <span><i class="fa-solid fa-trash"></i></span></p>
     </div>
-  </main>
+  </div>
+</section>
+<!-- here will be the status -->
+<!-- <section class="status-container">
+  <div class="status">
+    <i class="fa-solid fa-trash"></i>
+  </div>
+  <div class="status">
+    <i class="fa-solid fa-trash"></i> 
+  </div>
+  <div class="status">
+    <i class="fa-solid fa-trash"></i>
+  </div>
+</section> -->
+<!--Here the button will be-->
+  <div id="btn">
+    <button type="submit" class="btn btn-secondary" id="btn-cancel">Cancel</button>
+    <button type="submit" class="btn btn-primary" id="btn-submit">Add Task</button>
+  </div>
   <!-- copyright for the website page -->
   <footer>
     <div class="container">
@@ -70,6 +83,6 @@
     </div> 
   </footer>
   </div>
-  <script src="./app.js"></script>
+  <!-- <script src="./app.js"></script> -->
 </body>
 </html>

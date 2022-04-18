@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 img {
   width: 2rem;
   height: 2rem;
@@ -51,14 +57,14 @@ footer a {
 footer a:hover {
   color: #333;
 }
-header .container {
+header .checkbox {
   max-width: 960px;
   margin: 0 auto;
 }
-main {
+section {
   padding: 1rem;
 }
-main .container {
+section .checkbox {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -66,16 +72,136 @@ main .container {
   border-radius: 3px;
   text-align: center;
 }
-main input:focus {
+section input:focus {
   outline: none;
   border-color: #999;
 }
 #btn-cancel:hover {
   background-color: gray;
 }
-main button:hover {
+section button:hover {
   background-color: gray;
 }
 #btn {
   text-align: center;
 }
+
+section span {
+  margin-left: 500px;
+  /* margin-top: -150px; */
+}
+section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section input {
+  margin-bottom: 18px;
+  margin-right: 25px;
+}
+
+section .card {
+  width: 100%;
+  float: left;
+}
+section form {
+  width: 50%;
+  float: left;
+  margin-left: 25px;
+}
+
+#footer {
+  margin-top: 500px;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* :root {
+  --bg: #181818
+  --main-color:#064954
+  --border : .1rem solid ##4D4D4D
+  --secondary-color: #1D1A36
+  --white:#fff
+}
+** {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+}
+
+html {
+  font-size : 62.5%; 
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html ::-webkit-scrollbar{
+  width: 0.8rem; 
+}
+
+body {
+  background-color:var(--bg);
+  color: var(--white);
+}
+
+section {
+  padding: 2rem 7%;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 3.5rem;
+  font-size: 4rem;
+
+}
+
+.nav-link {
+  background-color: var(--main-color);
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: var(--white);
+  color: var(--main-color);
+}
+
+header {
+  background-color: var(--bg);
+  border-bottom: var(--border);
+  display: flex;
+  padding: 1.5rem 7%;
+  justify-content:space-between;
+  align-items:center;
+  position: fixed;
+  top:0;
+  right: 0;
+  left: 0;  
+}
+
+header img {
+  height: 6rem;
+}
+
+header .nav-link {
+  margin: 0 1rem;
+  font-size:1.6rem;
+
+}
+
+header .nav-link:hover {
+  color: var(--main-color);
+  border-bottom: 0.1rem solid var(--main-color);
+  padding-bottom: 0.5rem;
+}  */
