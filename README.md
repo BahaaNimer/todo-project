@@ -45,3 +45,15 @@ Nothing so far.
 about 1 hours.
 
 about 2 hours because the styling take so much time.
+
+## Questions & Answers of the task 6
+
+2.1 What observations or questions do you have about what you’ve learned so far?
+
+Nothing so far.
+
+2.2 How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+
+about 30 min.
+
+about 1 hours, too easy :)
